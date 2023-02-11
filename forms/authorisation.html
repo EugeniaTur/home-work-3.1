@@ -7,28 +7,29 @@
     <title>Authorisation</title>
   </head>
   <body>
-
-    <!-- <a href="registration.html">Регистрация</a>
-  <a href="../index.html">Главная</a>
-  <a href="search.html">Поиск</a> -->
+    <a href="../index.html">Главная</a>
+    <a href="registration.html">Регистрация</a>
+    <a href="search.html">Поиск</a>
 
     <form action="" method="post">
-      <div>
-        <label for="email">Email</label>
-        <input id="email" type="email" name="email" placeholder="email" />
-      </div>
+      <fieldset>
+        <legend>Авторизация</legend>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" placeholder="email" />
+        </div>
 
-      <div>
-        <label for="password">Пароль</label>
-        <input id="password" type="password" name="password" placeholder="Пароль" />
-      </div>
+        <div>
+          <label for="password">Пароль</label>
+          <input id="password" type="password" name="password" placeholder="Пароль" />
+        </div>
 
-      <div>
-        <label for="checkbox">Запомнить пароль</label>
-        <input id="checkbox" type="checkbox" id="savepassword" name="savepassword" value="savepassword">
-      </div>
-      <input type="submit">
-
+        <div>
+          <label for="checkbox">Запомнить пароль</label>
+          <input id="checkbox" type="checkbox" id="savepassword" name="savepassword" value="savepassword" />
+        </div>
+        <input type="submit" />
+      </fieldset>
     </form>
   </body>
 </html>
